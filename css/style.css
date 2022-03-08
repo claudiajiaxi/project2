@@ -1,6 +1,6 @@
 /*code for all pages*/
 header {
-  background-color: lavender;
+  background-color: rgb(230, 243, 250);
   padding: 6% 20% 6% 6%;
   margin-left: 0px !important;
   margin-bottom: 2em;
@@ -37,8 +37,8 @@ h2 {
   color: rgb(15, 130, 0);
   padding: 1em;
   display: block;
-  background-color: lavender;
-  border: 1px solid lavender;
+  background-color: rgb(230, 249, 250);
+  border: 1px solid rgb(230, 249, 250);
 }
 
 nav#mainnav ul {
@@ -54,7 +54,7 @@ nav#mainnav ul {
 nav#mainnav ul li a:hover {
   background-color: rgb(69, 130, 0);
   border: 1px solid rgb(85, 130, 0);
-  color: lavender;
+  color: rgb(230, 247, 250);
 }
 
 
@@ -129,8 +129,8 @@ h2 {
   color: rgb(69, 130, 0);
   padding: 1em;
   display: block;
-  background-color: lavender;
-  border: 1px solid lavender;
+  background-color: rgb(230, 250, 248);
+  border: 1px solid rgb(230, 250, 248);
 }
 }
 
@@ -144,7 +144,7 @@ button#linkedin-link {
   border: 1px solid rgb(91, 130, 0);
   font-family: 'Merriweather', serif;
   font-weight: 900;
-  background-color: lavender !important;
+  background-color: rgb(230, 247, 250) !important;
   margin: 3% 0% 0% 0%;
 }
 
@@ -162,9 +162,9 @@ button#linkedin-link:hover {
 
 /*code for cat-information page only*/
 #cat-photos {
-  background-color: lavender;
+  background-color: rgb(230, 250, 248);
   padding: 5% 0% 10% 0%;
-  border-top:  1px solid indigo;
+  border-top:  1px solid rgb(0, 130, 43);
 }
 
 #cat-photos h2 {
