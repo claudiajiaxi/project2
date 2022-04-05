@@ -165,22 +165,18 @@ button#facebook-link:hover {
 }
 
 /*code for pet page only*/
-#cat-photos {
-  background-color: rgb(230, 250, 248);
-  padding: 5% 0% 10% 0%;
-  border-top:  1px solid rgb(0, 130, 43);
-}
-
-#dog-photos h2 {
-  padding: 0% 20% 0% 20%;
-}
-
-#doraemon-pic {
-  width: 26%;
-  object-fit: cover;
-  margin: 1%;
-  border-radius: 2em;
-  padding: 1em;
+.photo {
+  background-color: #CCFF99;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 20px;
+  border-color: #F6FFCF;
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
 }
 
 .box {
@@ -237,6 +233,8 @@ button#facebook-link:hover {
 #diablo-video {
   width: 80% !important;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
