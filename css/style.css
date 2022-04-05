@@ -122,7 +122,6 @@ h2 {
   font-weight: 900;
   font-size: 1.4em;
   color: rgb(74, 130, 0);
-  text-align: center;
 }
 
 #resume, #education, #pet, #hike, #mountdiablo {
@@ -181,7 +180,6 @@ button#facebook-link:hover {
   object-fit: cover;
   margin: 1%;
   border-radius: 2em;
-  background: linear-gradient(45deg, indigo, red, lavenderblush, blue);
   padding: 1em;
 }
 
