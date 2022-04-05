@@ -28,7 +28,7 @@ h2 {
   color: rgb(63, 130, 0);
 }
 
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
+#resume, #education, #pet, #hike, #mountdiablo {
   padding: 2% 20% 2% 20%;
 }
 
@@ -148,30 +148,30 @@ button#linkedin-link {
   margin: 3% 0% 0% 0%;
 }
 
-button#linkedin-link:hover {
+button#facebook-link:hover {
   border: 1px solid rgb(63, 130, 0);
   background-color: rgb(85, 130, 0) !important;
   color: lavender;
 }
 
 @media (max-width: 768px) {
-  button#linkedin-link {
+  button#facebook-link {
   margin: 6% 0% 10% 0%;
 }
 }
 
-/*code for cat-information page only*/
+/*code for pet page only*/
 #cat-photos {
   background-color: rgb(230, 250, 248);
   padding: 5% 0% 10% 0%;
   border-top:  1px solid rgb(0, 130, 43);
 }
 
-#cat-photos h2 {
+#dog-photos h2 {
   padding: 0% 20% 0% 20%;
 }
 
-.cat-pic {
+.doraemon-pic {
   width: 26%;
   object-fit: cover;
   margin: 1%;
@@ -213,25 +213,24 @@ button#linkedin-link:hover {
   margin-bottom: 6em;
 }
 }
-
-/*code for learning-goals page only*/
-#glacier-pic {
+/*code for hike page only*/
+#diablo-pic {
   width: 100%;
   border-top: 50px solid darkcyan;
   border-bottom: 10px solid darkcyan;
 }
 
-#glacier-video-container {
+#diablo-video-container {
   background-color: lightcyan;
   padding: 8% 1% 8% 1%;
   text-align: center;
 }
 
-#glacier-video-container h2 {
+#diablo-video-container h2 {
   color: darkcyan;
 }
 
-#glacier-video {
+#diablo-video {
   width: 80% !important;
   justify-content: center;
 }
