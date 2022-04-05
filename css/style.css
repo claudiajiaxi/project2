@@ -120,7 +120,7 @@ h2 {
   color: rgb(74, 130, 0);
 }
 
-#resume, #education, #cat-information, #travel-goals, #professional-goals {
+#resume, #education, #pet, #hike, #mountdiablo {
   padding: 2% 6% 2% 6%;
 }
 
@@ -171,7 +171,7 @@ button#facebook-link:hover {
   padding: 0% 20% 0% 20%;
 }
 
-.doraemon-pic {
+#doraemon-pic {
   width: 26%;
   object-fit: cover;
   margin: 1%;
