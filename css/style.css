@@ -174,11 +174,6 @@ div {
 	text-align:center;
 	margin:auto
 	}
-div p {
-	position:static;
-	+position:absolute;
-	top:50%
-	}
 img {
 	position:static;
 	+position:relative;
@@ -187,9 +182,8 @@ img {
 	height:350px;
 	vertical-align:middle
 	}
-p:after {
+ p{
 	content:".";font-size:1px;
-	visibility:hidden
 	}
 
 /*code for hike page only*/
