@@ -206,6 +206,11 @@ button#facebook-link:hover {
   padding: 2%;
 }
 
+#dog-pic {
+  width: 50%;
+  border-top: 50px solid darkcyan;
+  border-bottom: 10px solid darkcyan;
+}
 #photo-text {
   padding: 2% 6% 2% 6%;
   margin-bottom: 6em;
