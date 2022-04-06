@@ -164,18 +164,33 @@ button#facebook-link:hover {
 }
 
 /*code for pet page only*/
-div{
-  width:400px;
-  height:400px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-img{
-   max-width: 100%;
-   max-height: 100%;
-}
+div {
+	width:500px;
+	height:500px;
+	line-height:500px;
+	/*border:1px solid #ccc;*/
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	margin:auto
+	}
+div p {
+	position:static;
+	+position:absolute;
+	top:50%
+	}
+img {
+	position:static;
+	+position:relative;
+	top:-50%;left:-50%;
+	width:350px;
+	height:350px;
+	vertical-align:middle
+	}
+p:after {
+	content:".";font-size:1px;
+	visibility:hidden
+	}
 
 /*code for hike page only*/
 #diablo-pic {
